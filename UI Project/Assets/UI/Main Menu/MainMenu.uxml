@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Main%20Menu/MainMenu.uss?fileID=7433441132597879392&amp;guid=908e4220a20d8404ca8150a6ff2b2993&amp;type=3#MainMenu" />
+    <ui:VisualElement name="panel" class="panel" style="background-image: url(&apos;project://database/Assets/Art/UI/Background.png?fileID=2800000&amp;guid=44d7a88df94f36a4695b2b08a0fe12ba&amp;type=3#Background&apos;);">
+        <ui:VisualElement name="title" class="title" style="background-image: url(&apos;project://database/Assets/Art/UI/_MainMenu/ChopChop_Title.png?fileID=2800000&amp;guid=788904b5a41b0ef4792eaa0865367818&amp;type=3#ChopChop_Title&apos;);" />
+        <ui:VisualElement name="panel-buttons" class="panel-buttons">
+            <UI.PlainButton.PlainButton text="CONTINUE" name="continue-button" class="button" style="font-size: 40%; -unity-font-style: bold; width: 50%; margin-top: 50px; height: -49px;" />
+            <UI.PlainButton.PlainButton text="NEW GAME" name="new-game-button" class="button" style="font-size: 40%; justify-content: center; align-items: center;" />
+            <UI.PlainButton.PlainButton text="SETTINGS" name="settings-button" class="button" style="font-size: 40%; -unity-font-style: bold; width: 50%; margin-top: 10%;" />
+            <UI.PlainButton.PlainButton text="CREDITS" name="credits-button" class="button" style="font-size: 40%; -unity-font-style: bold; width: 50%; margin-top: 10%;" />
+            <UI.PlainButton.PlainButton text="EXIT" name="exit-button" class="button" style="font-size: 40%; -unity-font-style: bold; width: 50%; margin-top: 20%;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
